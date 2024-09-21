@@ -1,5 +1,6 @@
 const getSquare = (num) => {
-    console.log(num ** 2);
+    const answer = num ** 2
+    return answer
 }
 
-getSquare(10);
+console.log(getSquare(10));
